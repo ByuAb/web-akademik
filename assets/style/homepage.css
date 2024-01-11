@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+
+.link {
+    color: black;
+}
+
+body {
+    font: 16px/1.5 "Lato", sans-serif;
+}
+
+.logo {
+    width: 170px;
+}
+
+ul {
+    list-style: none;
+}
+.container {
+    width: 100%;
+}
+/* Header Style */
+.page-header {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: auto;
+    width: 15%;
+    /*background: #5564D6 ;*/
+    background-image: linear-gradient(#94D4F3, #5564D6) !important;
+}
+
+.page-header a, .dropdown-btn {
+    padding: 8px 0px 8px 10px;
+    text-decoration: none;
+    width: 100%;
+    /*font-size: 16px;*/
+    font-size: 14px;
+    color: #FFFEFE;
+    display: block;
+    border: none;
+    background: none;
+    transition: 0.3s;
+    outline: none;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.page-header a:hover, .dropdown-btn:hover {
+    background-color: #7784e9;
+    color: #fefeff;
+}
+
+.active {
+    background-color: #46a2cf;
+    color: #ffff;
+}
+
+.page-logo {
+    display: table;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.menu-heading {
+    text-transform: uppercase;
+    letter-spacing: 0.10em;
+    font-size: 12px;
+    margin-top: 12px;
+    margin-left: 12px;
+    color: #FFFEFE;
+} 
+
+.fa-icon {
+    float: left;
+    padding-right: 10px;
+}
+
+/* Dropdown */
+.dropdown-container {
+    display: none;
+    background-color: #5564D6;
+    padding-left: 8px;
+}
+
+/* Optional : style the caret down icon*/
+.fa-caret-down {
+    float: right;
+    padding-right: 8px;
+}
+
+/* Content Style */
+.page-content {
+    margin: 0;
+    background-color: #cad0fc;
+    height: 100%;
+    width: 85%;
+    position: absolute;
+    right: 0;
+}
+
+.icon {
+    width: 40px;
+    margin-left: 10px;
+}
+
+.content-header {
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: 15px 15px 15px 15px;
+}
+.content-header span {
+    font-weight: bold;
+}
+
+.link {
+    color: #000000;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+
+.link span {
+    margin-right: 20px;
+}
+
+.link span {
+    font-weight: bold;
+}
+
+.admin-icon {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    right: 0;
+    margin-right: 20px;
+
+}
+
+.content{
+    width: 100%;
+    background-color: #cad0fc;
+    padding: 20px 20px 20px 20px;
+}
+
+.page-header h3 {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
